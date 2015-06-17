@@ -107,7 +107,7 @@ class SampleLevelOutDetTCGA():
 
 class SampleLevelOutDetGEO():
     ''' Average Hierarchical clustering and
-    Silhouette Test is applied for TCGA dataset'''
+    Silhouette Test is applied for GEO dataset'''
     #Samples are separated into tumor and normal #
     def classLabel(self,lst):
         self.label=[]
